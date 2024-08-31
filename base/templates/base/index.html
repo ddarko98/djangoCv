@@ -1,0 +1,258 @@
+{%load static%}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darko Spasojević</title>                 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static '/style/light.css' %}" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   
+
+</head>
+<body>
+  
+<!--
+  <button class="btn btn-light" onclick="swapStyles('light.css')">Light Mode</button>
+  <button class="btn btn-dark" onclick="swapStyles('dark.css')">Dark Mode</button>
+-->
+<form action="{% url 'set_language' %}" method="get">
+  {% csrf_token %}
+  <select name="language" onchange="this.form.submit()">
+      <option value="">{% trans 'Odabir jezika' %}</option>
+      <option value="sr" id='srbijaSlika' {% if LANGUAGE_CODE == 'sr' %}selected{% endif %}> {% trans 'Srpski' %} </option>
+      <option value="en" {% if LANGUAGE_CODE == 'en' %}selected{% endif %}> {% trans 'Engleski' %}</option>
+      <option value="zh-hans" {% if LANGUAGE_CODE == 'zh-hans' %}selected{% endif %}>{% trans 'Kineski' %}</option>
+  </select>
+</form>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+
+            <div class="card" id="mainCard">
+                <img src="{%static 'images/random.png'%}" alt="">
+                <hr>
+                <div class="card-body">
+                  <h5 class="card-title">Darko Spasojević</h5>
+                  <p class="card-text" id="intro">
+                    
+                    {% translate 'Django junior web-developer i master filozof' %}
+
+                    </p>
+                  <div class="knowMe">
+                    <i class="fa fa-linkedin"></i>
+                   <a href="https://github.com/ddarko98?tab=repositories" target="_blank"><i class="fa fa-github"></i></a> 
+                   <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvwJvpNNZMMlBrdkjlqNcfzDHmXVrsWkfZZMqNqggNhNhFpVRnHLVsGGFxMjnDhjhSFmL" target="_blank"><i class="fa fa-envelope"></i></a> 
+                    <i class="fa fa-phone"></i>
+
+
+
+                  </div>
+                </div>
+            
+            </div>
+            
+          </div>
+          <div class="col-md-6">
+            <div class="card" class="">
+             
+              <div class="card-body">
+                
+                <h5 class="card-title">{%translate 'Tehnologije koje koristim:'%}</h5>
+
+                {% translate '' %}
+                <ul class="card-text list-group">
+                  <li class="list-group-item">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i> 
+                  {% translate 'Služim se Linux/ Ubuntu operativnim sistemom' %}
+                  </li>
+                  <li class="list-group-item">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i> 
+                  {% translate 'Front End: Html, Css, Bootstrap, JavaScript' %}
+                  </li>
+                  <li class="list-group-item">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i> 
+                  {% translate 'Back End: Python, Django, sqlite, mySql' %}
+                  </li>
+                  <li class="list-group-item">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i> 
+                  {% translate 'Website deployment: Github, Railway, GoDaddy' %}
+                  </li>
+                  <li class="list-group-item">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i> 
+                  {% translate 'Optimizacija: SEO, Google Search Console' %}
+                  </li>
+                </ul>
+              </div>
+
+              <div class="slike">
+                <img src="{% static 'images/html.png' %}" alt="">
+                <img src="{% static 'images/css-3.png' %}" alt="">
+                <img src="{% static 'images/js.png' %}" alt="">
+                <img src="{% static 'images/bootstrap.png' %}" alt="">
+                <img src="{% static 'images/python.png' %}" alt="">
+                <img src="{% static 'images/django.png' %}" alt="">
+                <img src="{% static 'images/sqlite1.png' %}" alt="">
+                <img src="{% static 'images/github1.png' %}" alt="">
+                <img src="{% static 'images/railway.png' %}" alt="">
+                <img src="{% static 'images/linux.png' %}" alt="">
+              </div>
+          
+          </div>
+          </div>
+        </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card reveal">
+               
+                     
+                      <div class="card-body ">
+                        
+                        <h5 class="card-title">{% translate 'Formalno obrazovanje:' %}</h5>
+                        <div class="card-text">
+                          <i class="fa fa-arrow-right" aria-hidden="true">{% translate '2017-2022: Diplomirani filozof (Filozofski fakultet Univerziteta u Novom Sadu)' %}</i> <br> 
+                          <i class="fa fa-arrow-right" aria-hidden="true">{% translate '2022: Dobitnik Dositejeve stipendije (Fond za mlade talente)' %}</i> <br>
+                          <i class="fa fa-arrow-right" aria-hidden="true">{% translate '2023: Organizacija studentske konferencije "SUMMA STUDIORUM PHILOSOPHIAE- FILOZOFIJA I CONDITIO HUMANA"' %}</i> <br>
+                          <i class="fa fa-arrow-right" aria-hidden="true">{% translate '2024: Master filozof (Filozofski fakultet Univerziteta u Novom Sadu)' %}</i>
+          
+                        </div>
+                      </div>
+                  
+                  </div>
+                  </div>
+                <div class="col-md-4">
+                    <div class="card reveal">
+                     
+                      <div class="card-body ">
+                        
+                        <h5 class="card-title">{% translate "Neformalno obrazovanje:" %}</h5>
+                        <div class="card-text">
+                          <i class="fa fa-arrow-right" aria-hidden="true">{% translate "2018: kineski jezik B1, Institut Konfucije" %}</i>
+                          <i class="fa fa-arrow-right" aria-hidden="true">{% translate "2019: Kurs 'Front-End Developer' u Smart School, Novi Sad" %}</i>
+                          <i class="fa fa-arrow-right" aria-hidden="true">{% translate "2019: Kurs 'Front-End Developer-Advanced' u Smart School, Novi Sad" %}</i>
+                          <i class="fa fa-arrow-right" aria-hidden="true">{% translate "2019: kineski jezik B2, Institut Konfucije" %}</i>
+
+                        </div>
+                      </div>
+                  
+                  </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card reveal">
+                     
+                      <div class="card-body ">
+                        
+                        <h5 class="card-title">{% translate 'Projekat:' %}</h5>
+                        <p class="card-text"> <i class="fa fa-arrow-right" aria-hidden="true">{% translate 'Izrada E-commerce vebsajta za firmu MLINPEK - MLINARSTVO DOO NOVI SAD' %} </i> </p>
+                        <a href="https://mlinpek-mlinarstvo.up.railway.app/sr/" target="_blank" class="card-text">https://mlinpek-mlinarstvo.up.railway.app/sr/</a>
+                      </div>
+                  
+                  </div>
+                  </div>
+                 
+                  </div>
+              
+                  
+                  </div>
+                  </div>
+                  
+            </div>
+            <div class="row">
+                
+                  <div class="col-md-6">
+                    <div class="card reveal">
+                     
+                      <div class="card-body ">
+                        <h5 class="card-title">{% translate 'Ulazak u svet tehnologije:' %}</h5>
+                      
+                        <p class="card-text">{% blocktrans %}Na početku svojih studija sam se, pored formalnog obrazovanja, zainteresovao i za web-development. Nakon što sam savladao samostalno prve korake, pohađao sam kurseve front-end developmenta, što mi nije bilo dovoljno. U međuvremenu sam se zainteresovao i za python-a, što mi je proširilo vidike i omogućilo da zakoračim u svet back-end-a. Uglavnom sam svoje znanje proširivao kroz online platforme i kao mnogi zapao u takozvani "tutorial hell". Uvideo sam da je najbolji izlaz iz beskrajnih online kurseva bio taj da samostalno odaberem projekat koji me zanima i da "uprljam ruke" kodom.  {% endblocktrans %} </p>
+                        
+                      </div>
+                  
+                  </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="card reveal" >
+                     
+                      <div class="card-body ">
+                        
+                        <h5 class="card-title">{% translate 'Način učenja:' %}</h5>
+
+                        <p class="card-text">
+                          {% blocktranslate %}
+                          Ne preferiram ići induktivnim putem, u kojem bih pratio što više tutorijala i težio da naučim sve o programskom jeziku, već preferiram deduktivni put- put u kojem već imam jasnu i konačnu sliku projekta gde svoje znanje o programskim jezicima fokusiram za određenu, unapred-zacrtanu svrhu. Konkretno, pretežno sam zainteresovan za izradu online prodavnica i programske jezike uglavnom koristim u tu svrhu. Iako sam pratio razne tutorijale, stalno sam težio da samostalno proširim funkcionalnost sajta (dodavanje opcije za sortiranje, traženje, prevođenje i sl.) čitajući satima dokumentacije.
+                        {% endblocktranslate %}
+                        </p>
+                        
+                      </div>
+                  
+                  </div>
+                  </div>
+                 
+
+                  <div class="col-md-6">
+                    <div class="card reveal">
+                     
+                      <div class="card-body ">
+                        
+                        <h5 class="card-title">{% translate 'Rešavanje problema:' %}</h5>
+
+                        <p class="card-text">
+                          {% blocktranslate %}
+                          Problem koji težim rešiti: kako da se proizvod pojavi na internetu i kako da mušterija ima što bolje iskustvo na veb prodavnici. Iako zvuči relativno prosto, bug-ova uvek bude bezbroj, koje kad tad, kroz čelično strpljenje i istrajnost rešim.
+                          {% endblocktranslate %}
+                        </p> 
+                      </div>
+                  
+                  </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="card reveal">
+                     
+                      <div class="card-body ">
+
+                        
+                        <h5 class="card-title">{%translate 'Veštine koje želim da steknem:'%}</h5>
+                        <p class="card-text">
+                          {% blocktranslate %}
+                          Iako sam uglavnom zainteresovan za izradu online prodavnica, svoje znanje bih želeo proširiti i na druge oblasti. Upisao sam kurs "python & ai" u kojem ću izučavati moderne tehnologije poput mašinskog učenja i velikih jezičkih modela.
+                          {% endblocktranslate %}
+                        </p>
+                      </div>
+                  
+                  </div>
+                  </div>
+            </div>
+
+      </div>
+
+     <script src='{% static "js/script.js" %}'></script>
+
+     <script type='text/javascript'>
+      /*
+      let setTheme = localStorage.getItem('theme')  
+      console.log('theme:', setTheme)
+
+      if (setTheme ==null){
+        swapStyles('light.css')
+      }else{
+        swapStyles(setTheme)
+      }
+
+      function swapStyles(sheet){
+        document.getElementById('mystylesheet').href = sheet
+        localStorage.setItem('theme', sheet)
+      }
+*/
+     </script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-26 15:36+0000\n"
+"PO-Revision-Date: 2024-08-26 15:47+0000\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: base/templates/base/index.html:26
+msgid "Odabir jezika"
+msgstr ""
+
+#: base/templates/base/index.html:27
+msgid "Srpski"
+msgstr ""
+
+#: base/templates/base/index.html:28
+msgid "Engleski"
+msgstr ""
+
+#: base/templates/base/index.html:29
+msgid "Kineski"
+msgstr ""
+
+#: base/templates/base/index.html:44
+msgid "Django junior web-developer i master filozof"
+msgstr "Django junior web-developer and master philosopher"
+
+#: base/templates/base/index.html:66
+msgid "Tehnologije koje koristim:"
+msgstr "Technologies I use:"
+
+#: base/templates/base/index.html:70
+msgid "Služim se Linux/ Ubuntu operativnim sistemom"
+msgstr "I use Linux/Ubuntu operative system"
+
+#: base/templates/base/index.html:71
+msgid "Front End: Html, Css, Bootstrap, JavaScript"
+msgstr "Front End: Html, Css, Bootstrap, JavaScript"
+
+#: base/templates/base/index.html:72
+msgid "Back End: Python, Django, sqlite, mySql"
+msgstr "Back End: Python, Django, sqlite, mySql"
+
+#: base/templates/base/index.html:73
+msgid "Website deployment: Github, Railway, GoDaddy"
+msgstr "Website deployment: Github, Railway, GoDaddy"
+
+#: base/templates/base/index.html:74
+msgid "Optimizacija: SEO, Google Search Console"
+msgstr "Optimizacija: SEO, Google Search Console"
+
+#: base/templates/base/index.html:102
+msgid "Formalno obrazovanje:"
+msgstr "Formal education: "
+
+#: base/templates/base/index.html:104
+msgid ""
+"2017-2022: Diplomirani filozof (Filozofski fakultet Univerziteta u Novom "
+"Sadu)"
+msgstr ""
+"2017-2022: Bachelor of Philosophy (Faculty of Philosophy, University of Novi"
+" Sad)"
+
+#: base/templates/base/index.html:105
+msgid "2022: Dobitnik Dositejeve stipendije (Fond za mlade talente)"
+msgstr "2022: Winner of the Dositej Scholarship (Fund for Young Talents)"
+
+#: base/templates/base/index.html:106
+msgid ""
+"2023: Organizacija studentske konferencije \"SUMMA STUDIORUM PHILOSOPHIAE- "
+"FILOZOFIJA I CONDITIO HUMANA\""
+msgstr ""
+"2023: Organization of the student conference \"SUMMA STUDIORUM PHILOSOPHIAE "
+"- PHILOSOPHY AND CONDITIO HUMANA\""
+
+#: base/templates/base/index.html:107
+msgid "2024: Master filozof (Filozofski fakultet Univerziteta u Novom Sadu)"
+msgstr ""
+"2024: Master of Philosophy (Faculty of Philosophy, University of Novi Sad)"
+
+#: base/templates/base/index.html:119
+msgid "Neformalno obrazovanje:"
+msgstr "Non-formal education:"
+
+#: base/templates/base/index.html:121
+msgid "2018: kineski jezik B1, Institut Konfucije"
+msgstr "2018: Chinese language B1, Confucius Institute"
+
+#: base/templates/base/index.html:122
+msgid "2019: Kurs 'Front-End Developer' u Smart School, Novi Sad"
+msgstr "2019: \"Front-End Developer\" course at Smart School, Novi Sad"
+
+#: base/templates/base/index.html:123
+msgid "2019: Kurs 'Front-End Developer-Advanced' u Smart School, Novi Sad"
+msgstr "2019: \"Front-End Developer- Advanced\" course at Smart School, Novi Sad"
+
+#: base/templates/base/index.html:124
+msgid "2019: kineski jezik B2, Institut Konfucije"
+msgstr "2019: Chinese language B2, Confucius Institute"
+
+#: base/templates/base/index.html:137
+msgid "Projekat:"
+msgstr "Project: "
+
+#: base/templates/base/index.html:138
+msgid "Izrada E-commerce vebsajta za firmu MLINPEK - MLINARSTVO DOO NOVI SAD"
+msgstr ""
+"Development of an E-commerce website for the company MLINPEK - MLINARSTVO "
+"NOVI SAD"
+
+#: base/templates/base/index.html:158
+msgid "Ulazak u svet tehnologije:"
+msgstr "Entering the world of technology:"
+
+#: base/templates/base/index.html:160
+msgid ""
+"Na početku svojih studija sam se, pored formalnog obrazovanja, zainteresovao"
+" i za web-development. Nakon što sam savladao samostalno prve korake, "
+"pohađao sam kurseve front-end developmenta, što mi nije bilo dovoljno. U "
+"međuvremnu sam se zainteresovao i za python-a, što mi je proširilo vidike i "
+"omogućilo da zakoračim u svet back-end-a. Uglavnom sam svoje znanje "
+"proširivao kroz online platforme i kao mnogi zapao u takozvani \"tutorial "
+"hell\". Uvideo sam da je najbolji izlaz iz beskrajnih online kurseva bio taj"
+" da samostalno odaberem projekat koji me zanima i da \"uprljam ruke\" kodom."
+"  "
+msgstr ""
+"At the beginning of my studies, in addition to formal education, I became "
+"interested in web development. After I mastered the first steps on my own, I"
+" attended front-end development courses, which was not enough for me. In the"
+" meantime, I also became interested in python, which broadened my horizons "
+"and allowed me to step into the world of back-end. I mostly expanded my "
+"knowledge through online platforms and like many fell into the so-called "
+"\"tutorial hell\". I realized that the best way out of endless online "
+"courses was to independently choose a project that interested me and \"get "
+"my hands dirty\" with code."
+
+#: base/templates/base/index.html:172
+msgid "Način učenja:"
+msgstr "Learning method:"
+
+#: base/templates/base/index.html:175
+msgid ""
+"\n"
+"                          Ne preferiram ići induktivnim putem, u kojem bih pratio što više tutorijala i težio da naučim sve o programskom jeziku, već preferiram deduktivni put- put u kojem već imam jasnu i konačnu sliku projekta gde svoje znanje o programskim jezicima fokusiram za određenu, unapred-zacrtanu svrhu. Konkretno, pretežno sam zainteresovan za izradu online prodavnica i programske jezike uglavnom koristim u tu svrhu. Iako sam pratio razne tutorijale, stalno sam težio da samostalno proširim funkcionalnost sajta (dodavanje opcije za sortiranje, traženje, prevođenje i sl.) čitajući satima dokumentacije.\n"
+"                        "
+msgstr ""
+"\n"
+"I do not prefer to follow the inductive path, in which I would follow as many tutorials as possible and try to learn everything about the programming language, but I prefer the deductive path - the path in which I already have a clear and final picture of the project, where I focus my knowledge of programming languages ​​for a specific, pre-defined purpose. In particular, I am mainly interested in creating online stores and I mainly use programming languages ​​for this purpose. Although I followed various tutorials, I constantly tried to expand the functionality of the site on my own (adding options for sorting, searching, translating, etc.) by reading hours of documentation."
+
+#: base/templates/base/index.html:191
+msgid "Rešavanje problema:"
+msgstr "Solving problems:"
+
+#: base/templates/base/index.html:194
+msgid ""
+"\n"
+"                          Problem koji težim rešiti: kako da se proizvod pojavi na internetu i kako da mušterija ima što bolje iskustvo na veb prodavnici. Iako zvuči relativno prosto, bug-ova uvek bude bezbroj, koje kad tad, kroz čelično strpljenje i istrajnost rešim.\n"
+"                          "
+msgstr ""
+"\n"
+"The problem I strive to solve: how to make the product appear on the Internet and how to make the customer have the best possible experience on the web store. Although it sounds relatively simple, there are always innumerable bugs, which I resolve through steely patience and perseverance."
+
+#: base/templates/base/index.html:209
+msgid "Veštine koje želim da steknem:"
+msgstr "Skills I want to learn:"
+
+#: base/templates/base/index.html:211
+msgid ""
+"\n"
+"                          Iako sam uglavnom zainteresovan za izradu online prodavnica, svoje znanje bih želeo proširiti i na druge oblasti. Upisao sam kurs \"python & ai\" u kojem ću izučavati moderne tehnologije poput mašinskog učenja i velikih jezičkih modela.\n"
+"                          "
+msgstr ""
+"\n"
+"Although I am mainly interested in creating online stores, I would like to expand my knowledge to other areas as well. I enrolled in the \"python & ai\" course where I will study modern technologies like machine learning and large language models."
+
+#: cv/settings.py:149
+msgid "Serbian"
+msgstr ""
+
+#: cv/settings.py:150
+msgid "English"
+msgstr ""
+
+#: cv/settings.py:151
+msgid "Simplified Chinese"
+msgstr ""
