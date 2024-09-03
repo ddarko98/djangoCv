@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff9f9 !important;
+}
+
+
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.aktiviraj {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#languageSelection{
+    font-size: 20px;
+    margin: 10px 0 20px 10px;
+
+}
+
+.knowMe a{
+    color: black;
+    
+}
+
+.card-body, #mainCard{
+    border: 1px solid rgb(53, 154, 120);
+
+} 
+#intro{
+    font-size: 25px;
+    text-align: center ;
+}
+
+.card{
+    margin: 10px 5px;
+}
+.row{
+    margin: 50px 0;
+}
+
+.row h5{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.row i{
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.row p{
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.card-title{
+    border-bottom: 1px solid black;
+}
+#mainCard{
+    text-align: center;
+    
+}
+
+#mainCard h5{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#mainCard img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+
+.slike img{
+    width: 110px;
+    height: 110px;
+    padding: 10px 15px;
+}
