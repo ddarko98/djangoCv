@@ -22,11 +22,10 @@
 -->
 <form action="{% url 'set_language' %}" method="get">
   {% csrf_token %}
-  <select name="language" onchange="this.form.submit()">
-      <option value="">{% trans 'Odabir jezika' %}</option>
+  <select name="language" onchange="this.form.submit()" id='languageSelection'>
+      <option value="">{% trans 'Language selection' %}</option>
       <option value="sr" id='srbijaSlika' {% if LANGUAGE_CODE == 'sr' %}selected{% endif %}> {% trans 'Srpski' %} </option>
       <option value="en" {% if LANGUAGE_CODE == 'en' %}selected{% endif %}> {% trans 'Engleski' %}</option>
-      <option value="zh-hans" {% if LANGUAGE_CODE == 'zh-hans' %}selected{% endif %}>{% trans 'Kineski' %}</option>
   </select>
 </form>
 
@@ -45,10 +44,12 @@
 
                     </p>
                   <div class="knowMe">
-                    <i class="fa fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/darko-spasojevic-948141325/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    
                    <a href="https://github.com/ddarko98?tab=repositories" target="_blank"><i class="fa fa-github"></i></a> 
-                   <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvwJvpNNZMMlBrdkjlqNcfzDHmXVrsWkfZZMqNqggNhNhFpVRnHLVsGGFxMjnDhjhSFmL" target="_blank"><i class="fa fa-envelope"></i></a> 
-                    <i class="fa fa-phone"></i>
+                   <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRsqXpxWHVbFclZvmGtGcKmrNtzZGzcSPthVgssKJfGHBFzZLqrdNVQqpRhNQLxxgkpjwvG" target="_blank"><i class="fa fa-envelope"></i></a> 
+                   <br>
+                    <i class="fa fa-phone">0621467536</i>
 
 
 
@@ -151,7 +152,7 @@
                         
                         <h5 class="card-title">{% translate 'Projekat:' %}</h5>
                         <p class="card-text"> <i class="fa fa-arrow-right" aria-hidden="true">{% translate 'Izrada E-commerce vebsajta za firmu MLINPEK - MLINARSTVO DOO NOVI SAD' %} </i> </p>
-                        <a href="https://mlinpek-mlinarstvo.up.railway.app/sr/" target="_blank" class="card-text">https://mlinpek-mlinarstvo.up.railway.app/sr/</a>
+                        <a href="https://mlinpek-production.up.railway.app/sr/" target="_blank" class="card-text">https://mlinpek-production.up.railway.app/sr/</a>
                       </div>
                   
                   </div>
