@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-8s+7v3d)!=z%siao7@x(ve_e5dnu9s^byj6d)94js^x+$^)2@#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://djangocv-production.up.railway.app/']
+
 
 
 # Application definition
