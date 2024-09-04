@@ -76,10 +76,11 @@ body{
 }
 
 #mainCard img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    border-radius: 30%;
     margin: auto;
+    padding-top: 10px;
 }
 
 

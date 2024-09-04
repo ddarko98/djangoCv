@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-26 15:36+0000\n"
-"PO-Revision-Date: 2024-08-26 15:47+0000\n"
+"PO-Revision-Date: 2024-09-04 15:23+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -61,7 +61,7 @@ msgstr "Website deployment: Github, Railway, GoDaddy"
 
 #: base/templates/base/index.html:74
 msgid "Optimizacija: SEO, Google Search Console"
-msgstr "Optimizacija: SEO, Google Search Console"
+msgstr "Optimisation: SEO, Google Search Console"
 
 #: base/templates/base/index.html:102
 msgid "Formalno obrazovanje:"
